@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: journaly
+  data:
+    mongodb:
+      uri: mongodb+srv://srisamridhi213:killjoy1@samridhiclus.l5xu1gp.mongodb.net/?retryWrites=true&w=majority&appName=SamridhiClus
+      database: journaldb
+      auto-index-creation: true
+
+
+server:
+  port: 8080
+#spring:
+#  data:
+#    mongodb:
+#      username: journalyUser
+#      password: journalyPassword
